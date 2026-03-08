@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My One & Only | AARADHYA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <canvas id="heartCanvas"></canvas>
+
+    <audio id="song1" src="Edd_Sheeran_-_Perfect_(mp3.pm).mp3"></audio>
+    <audio id="song2" src="marindalcrew_a-thousand-years-cristina-perri-mp3.mp3"></audio>
+
+    <div class="music-player">
+        <span class="music-icon">🎵</span>
+        <span id="trackName">Playing: Song1...</span>
+    </div>
+
+    <div id="loginScreen">
+        <div class="glass-card login-box">
+            <div class="heart-icon">❤️</div>
+            <h2>Project: 0315</h2>
+            <p>Accessing Reserved Memories Only for You...</p>
+            <div class="input-field">
+                <input type="password" id="passInput" placeholder="Enter Secret Key...">
+            </div>
+            <button onclick="unlock()" class="btn-unlock">Unlock My Heart</button>
+            <p id="error" class="error-msg">That's not the key to my heart. Try again.</p>
+        </div>
+    </div>
+
+    <div id="mainContent">
+        
+        <section class="panel hero">
+            <div class="hero-content">
+                <h1 class="romantic-title">Aaradhya, this is my effort.</h1>
+                <h1 class="romantic-title">For My First Love❤️❤️❤️.</h1>
+
+                <p class="fade-in-text">Built with love, line by line, just for you.</p>
+                <div class="mouse-scroll"></div>
+            </div>
+        </section>
+
+        <section class="panel">
+            <div class="glass-card">
+                <div class="rose-container">
+                    <svg viewBox="0 0 100 100" class="rose-svg">
+                        <path class="rose-path" d="M50,85 C50,85 50,70 50,60 C50,50 40,40 30,50 C20,60 40,80 50,60 C60,40 80,30 70,20 C60,10 40,30 50,50 C60,70 80,60 90,50" />
+                        <circle cx="50" cy="50" r="2" fill="red" />
+                    </svg>
+                </div>
+                <h2>The Eternal Bloom</h2>
+                <p>Just like this code, my feelings for you are structured, permanent, and ever-growing. You said I don't try... so I spent hours making sure this digital rose never fades.</p>
+            </div>
+        </section>
+
+        <section class="panel">
+            <div class="split-content">
+                <div class="glass-card code-box">
+                    <h3>// Logic of Us</h3>
+                    <pre>
+<span class="kw">function</span> <span class="fn">checkFuture</span>() 
+{
+  <span class="kw">let</span> destiny = [<span class="str">"Aaradhya"</span>, <span class="str">"Me"</span>];
+  <span class="kw">while</span> (destiny.<span class="fn">length</span> > 0) 
+  {
+    <span class="fn">stayTogether</span>();
+    <span class="fn">loveUnconditionally</span>();
+    <span class="kw">if</span> (tension == <span class="kw">true</span>) 
+    {
+      <span class="fn">holdHandTighter</span>();
+    }
+  }
+}
+                    </pre>
+                </div>
+                <div class="text-explanation">
+                    <h2>Coding My Feelings</h2>
+                    <p>I may be a programmer, but you are the only user interface I ever want to interact with. Every function I write is a step closer to the life I want to build with you.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel">
+            <h2 class="section-heading">Our Milestones</h2>
+            <div class="romantic-timeline">
+                <div class="t-item">
+                    <div class="t-dot"></div>
+                    <div class="t-content">
+                        <h4>The Spark</h4>
+                        <p>When you entered my life and changed the source code of my world.</p>
+                    </div>
+                </div>
+                <div class="t-item">
+                    <div class="t-dot"></div>
+                    <div class="t-content">
+                        <h4>The Locket</h4>
+                        <p>A physical reminder that no matter where we are, I am yours.</p>
+                    </div>
+                </div>
+                <div class="t-item">
+                    <div class="t-dot"></div>
+                    <div class="t-content">
+                        <h4>Mom's Smile</h4>
+                        <p>When she saw your photo and saw what I see: Perfection.</p>
+                    </div>
+                </div>
+                <div class="t-item">
+                    <div class="t-dot"></div>
+                    <div class="t-content">
+                        <h4>The Project 0315</h4>
+                        <p>The day I proved that I will always go the extra mile for you.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel parallax-bg">
+            <div class="quote-card">
+                <p class="main-quote"><h1 class="romantic-title">In the universe of my life, you are the gravity that keeps me grounded."</p>
+                <span class="author">- For My One and Only Aaradhya</span></h1>"
+                <p><h2>In my lines of code, you are the only comment that matters and also you are my Favorite Algorithm</p>
+            </div>
+        </section></h2></p>
+
+        <section class="panel">
+            <div class="glass-card special-card">
+                <h2>My Promise & Loyalty</h2>
+                <p>I told you to wait until March 15th to prove myself to my parents, but I'm actually proving myself to you every single day. I'm not going anywhere. My loyalty is encrypted with a key only you hold.</p>
+                <div class="seal">❤️❤️ Sealed with Love</div>
+            </div>
+        </section>
+
+        <section class="panel" id="timer-section">
+            <div class="countdown-container">
+                <h2>March 15th: The Reunion</h2>
+                <div class="timer-display">
+                    <div class="unit"><span id="days">00</span><p>Days</p></div>
+                    <div class="unit"><span id="hours">00</span><p>Hrs</p></div>
+                    <div class="unit"><span id="mins">00</span><p>Mins</p></div>
+                    <div class="unit"><span id="secs">00</span><p>Secs</p></div>
+                </div>
+                <p class="study-hard">"Study hard, stay focused. I'm counting every heartbeat until then."</p>
+            </div>
+        </section>
+
+        <footer class="romantic-footer">
+            <p>Designed with infinite love.</p>
+            <p>&copy; 2026 Project 0315</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
